@@ -35,9 +35,9 @@ dateBtn.addEventListener('click', startTimer);
 function pad(value) {
     return String(value).padStart(2, '0');
 }
-function daysPad(value) {
-    return String(value).padStart(3, '0');
-}
+// function daysPad(value) {
+//     return String(value).padStart(3, '0');
+// }
 
 function startTimer() {
     setInterval(() => {
@@ -53,7 +53,7 @@ function startTimer() {
     
         const deltaTime = inputValue - currentTime;
         const resultTime = convertMs(deltaTime);
-        daysI.textContent = daysPad(resultTime.days);
+        daysI.textContent = pad(resultTime.days);
         hoursI.textContent = pad(resultTime.hours);
         minutesI.textContent = pad(resultTime.minutes);
         secondsI.textContent = pad(resultTime.seconds);

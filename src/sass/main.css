@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.task-list {
+  padding: 30px;
+}
+/*# sourceMappingURL=main.css.map */

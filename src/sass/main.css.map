@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;ACHH,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "main.scss",
+        "general.scss",
+        "promise.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
